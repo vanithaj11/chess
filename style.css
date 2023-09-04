@@ -1,0 +1,49 @@
+.chess-board { border: spacing 10px;border-collapse: collapse; }
+.chess-board td { border: 1px solid; width: 50px; height: 50px; }
+.chess-board .white { background: transparent }
+.chess-board .black { background:  black; } 
+.chess-board {
+    margin: left 200px;
+    margin-right: auto;
+}
+.chess-board{margin-left: 100px;}
+.black{   
+    padding-left: 5px;
+    font-size: 35px;
+}
+.white{
+    padding-left: 5px;
+    font-size: 35px;
+    color:red (141,140,156);
+}
+body{
+    background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm296-ning-08-job598.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=0d238e4526c8e968e995cfa33c71e0ed);
+    background-size: cover;
+    background-repeat: no-repeat;}
+.blackcoin:hover{
+    color: aqua;
+}
+
+.blackcoin:hover{
+    color: red;
+}
+.whitecoin:hover{
+    color: rgb(255, 72, 0);
+}
+h1:hover{
+    transform: scale(1.3);
+}
+td:hover{
+    transform: scale(1.3);
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-style: inherit;
+    color: #fff;
+}
+th{
+    font-size: 25px;
+    color: red (203, 208);
+    padding-left: 15px;
+}
